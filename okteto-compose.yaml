@@ -1,0 +1,10 @@
+version: "3.8.7"
+services:
+  arttelefwd:
+    build: .
+    environment:
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      SESSION: $SESSION
+      FORWARD_FROM_CHAT_ID: =$FORWARD_FROM_CHAT_ID
+      FORWARD_TO_CHAT_ID: $FORWARD_TO_CHAT_ID
