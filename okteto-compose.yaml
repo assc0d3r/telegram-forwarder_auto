@@ -3,7 +3,7 @@ services:
   arttelefwd:
     build: .
     environment:
-      API_ID: $API_ID
+      APP_ID: $APP_ID
       API_HASH: $API_HASH
       SESSION: $SESSION
       TO_CHANNEL: $TO_CHANNEL
