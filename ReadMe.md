@@ -15,6 +15,10 @@ This makes a user send all messages from one/many chat(s) to another chat(s).
 > `FROM_CHANNEL` - Channel ID(s) split by space or just one channel ID.   
 > `TO_CHANNEL` - Channel ID(s) split by space or just one channel ID.   
 
+## Deploy To Render 
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/assc0d3r/tgfwdauto)
+
 * Chose a platform to deploy on:
 <details>
 <summary>Heroku/Kintohub/Zeet</summary>
