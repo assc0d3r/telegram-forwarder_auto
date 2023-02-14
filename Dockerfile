@@ -2,8 +2,9 @@ FROM python:3.9
 
 WORKDIR /app
 
-COPY . /app/
+COPY requirements.txt .
+RUN pip3 install -r requirements.txt
+RUN dpkg-reconfigure locales
+COPY . /app
 
-RUN pip install -r requirements.txt
-
-CMD python main.py
+CMD ["python3", "main.py"]
